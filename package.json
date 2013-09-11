@@ -1,0 +1,20 @@
+{
+  "name": "pull-checker",
+  "version": "0.0.1",
+  "author": "Vojtech Jasny <voy@voy.cz>",
+  "description": "Jenkins pull request checker",
+  "scripts": {
+    "test": "mocha",
+    "runserver": "node lib/checker.js"
+  },
+  "dependencies" : {
+    "nstore"        :  "*",
+    "node-github"   :  "*",
+    "express"       :  "3.x"
+  },
+  "devDependencies" : {
+    "mocha"        :  "*",
+    "expect.js"    :  "*"
+  },
+  "license": "MIT"
+}
