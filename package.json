@@ -8,13 +8,15 @@
     "runserver": "node lib/checker.js"
   },
   "dependencies" : {
-    "nstore"        :  "*",
-    "node-github"   :  "*",
-    "express"       :  "3.x"
+    "nstore"        : "*",
+    "node-github"   : "https://github.com/ajaxorg/node-github/tarball/master",
+    "express"       : "3.x",
+    "lodash"        : "*",
+    "q"             : "*"
   },
   "devDependencies" : {
-    "mocha"        :  "*",
-    "expect.js"    :  "*"
+    "mocha"         : "*",
+    "expect.js"     : "*"
   },
   "license": "MIT"
 }
